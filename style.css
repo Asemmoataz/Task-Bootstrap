@@ -1,0 +1,112 @@
+/* شريط التنقل الشفاف */
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 0.5); /* شفاف */
+    backdrop-filter: blur(8px); /* ضبابية */
+  }
+  
+  
+  /* الخلفية */
+  .hero-section {
+    background: url("images/download-background.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    color: white;
+    padding-top: 100px;
+  }
+  
+  .wave-custom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+  }
+  .fa-person{
+    color: pink;
+  }
+  
+  .name input {
+    border-radius: 50px;
+  }
+   .name button {
+    background-color: rgb(158, 18, 128);
+    border-radius: 50px;
+    margin: 10px;
+   }
+  .wave svg {
+    display: block;
+    width: 100%;
+    height: 100px;
+  }
+  
+  .feature-box {
+    display: flex;
+    flex-direction: column; /* خلي العناصر بجانب بعض */
+    align-items: flex-start;
+    gap: 15px; /* مسافة بين الأيقونة والنص */
+  }
+  
+  .feature-box i {
+    font-size: 32px; /* حجم الأيقونة */
+    color: #ac097b; /* لون الأيقونة (اختياري) */
+    position: absolute;
+    margin-left: -40px;
+  }
+  
+  #jjj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    /* ارتفاع القسم */
+    background-color: #f8f9fa; /* لون الخلفية */
+  
+    border-radius: 50px;
+  
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 75%;
+  
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #ppp img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #ppp strong {
+    font-size: 20px;
+  }
+  
+  #ppp {
+    margin-bottom: 50px;
+  }
+  
+  .footer {
+    background-color: #2d2f40;
+    color: white;
+    padding: 40px 0;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ccc;
+  }
+  
+  .footer-bottom {
+    text-align: right;
+  
+    border-top: whitesmoke 1px solid;
+  }

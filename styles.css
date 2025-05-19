@@ -1,0 +1,64 @@
+/* شريط التنقل الشفاف */
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 0.5); /* شفاف */
+    backdrop-filter: blur(8px); /* ضبابية */
+  }
+  
+  /* الخلفية */
+  .hero-section {
+    background: url("images/download-background.jpg") no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    color: white;
+    padding-top: 200px;
+    padding-left: 125px;
+  }
+  
+  .wave-custom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+  }
+  
+  .wave svg {
+    display: block;
+    width: 100%;
+    height: 100px;
+  }
+  
+  .form-section {
+    margin-top: 100px;
+    border-top: 1px solid #ccc;
+    background-color: #f8f9fa; /* لون الخلفية */
+  }
+  .form-section a {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  
+  .footer {
+    background-color: #2d2f40;
+    color: white;
+    padding: 40px 0;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ccc;
+  }
+  
+  .footer-bottom {
+    text-align: right;
+  
+    border-top: whitesmoke 1px solid;
+  }
